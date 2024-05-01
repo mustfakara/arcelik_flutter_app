@@ -1,4 +1,4 @@
-# testapp
+# Arçelik Global Flutter App
 
 A new Flutter project.
 
