@@ -1,16 +1,8 @@
 # Arçelik Global Flutter App
 
-A new Flutter project.
+This is the main branch of the repository. It receives updates upon the approval of development branch merges for integration.
 
-## Getting Started
+## About this
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project aims to demonstrate my proficiency in Flutter while emulating the design and functionality of Arçelik's website. With a focus on replicating the user interface and interactions, this app serves as a showcase of my Flutter skills. Feel free to explore the codebase and provide any feedback or contributions to enhance this project further.
