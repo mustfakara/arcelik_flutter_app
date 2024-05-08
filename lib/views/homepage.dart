@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:arcelik_flutter_app/utils/arcelik_drawer.dart';
 import 'package:arcelik_flutter_app/utils/arcelik_appbar.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -9,11 +10,11 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SafeArea(
       child: Scaffold(
-          appBar: ArcelikAppBar(), // Inside of utils folder
-          body: null,
-          drawer: null
-          // Inside of utils folder
-          ),
+        appBar: ArcelikAppBar(), // Inside of utils folder
+        body: null,
+        drawer: ArcelikDrawer(),
+        // Inside of utils folder
+      ),
     );
   }
 }

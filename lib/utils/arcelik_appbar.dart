@@ -15,7 +15,7 @@ class ArcelikAppBar extends StatelessWidget implements PreferredSizeWidget {
             child: Row(
               children: [
                 IconButton(
-                  icon: const Icon(Icons.menu),
+                  icon: const SizedBox.shrink(),
                   onPressed: () {
                     // Çekmece iconuna basıldığında yapılacak işlemler
                   },
