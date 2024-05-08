@@ -9,4 +9,8 @@ The company of Arçelik Global has all the rights to protect their trademarks.
 
 The image below shows the last updated scaffold of the application.
 
-![Getting Started](development_image.png)
+![Getting Started](/readme_images/custom_appbar.png)
+
+Next image shows the last form of the custom drawer.
+
+![Getting Drawer](/readme_images/custom_drawer.png)
