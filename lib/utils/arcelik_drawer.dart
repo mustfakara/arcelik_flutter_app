@@ -1,9 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:arcelik_flutter_app/utils/custom_card.dart';
 
 class ArcelikDrawer extends StatelessWidget {
   const ArcelikDrawer({super.key});
 
-  @override
+//   @override
+//   State<ArcelikDrawer> createState() => _ArcelikDrawerState();
+// }
+
+// class _ArcelikDrawerState extends State<ArcelikDrawer> {
+//   final ScrollController _scrollController = ScrollController();
+
+//   @override
+//   void dispose() {
+//     _scrollController.dispose();
+//     super.dispose();
+//   }
+
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -68,7 +81,11 @@ class ArcelikDrawer extends StatelessWidget {
                 ),
               ),
             ),
-            // Add more list items as needed
+
+            CustomCard(),
+            Divider(),
+            Divider(),
+
             const ListTile(
               title: Text('Data'),
             ),
