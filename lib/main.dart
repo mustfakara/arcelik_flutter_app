@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:arcelik_flutter_app/views/homepage.dart';
 
-
-
 void main() {
   GoogleFonts.config.allowRuntimeFetching = true;
 

@@ -1,19 +1,33 @@
+// homepage.dart
 import 'package:flutter/material.dart';
 import 'package:arcelik_flutter_app/utils/arcelik_drawer.dart';
 import 'package:arcelik_flutter_app/utils/arcelik_appbar.dart';
+import 'package:arcelik_flutter_app/views/mainpage.dart';
 
-class MyHomePage extends StatelessWidget {
+class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
-  // int _selectedIndex = 0; // Ana Sayfa
+  @override
+  MyHomePageState createState() => MyHomePageState();
+}
+
+class MyHomePageState extends State<MyHomePage> {
+  final ValueNotifier<bool> isScrolledNotifier = ValueNotifier(false);
+
+  @override
+  void dispose() {
+    isScrolledNotifier.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return const SafeArea(
+    return SafeArea(
       child: Scaffold(
-        appBar: ArcelikAppBar(), // Inside of utils folder
-        body: null,
-        drawer: ArcelikDrawer(),
-        // Inside of utils folder
+        extendBodyBehindAppBar: true,
+        appBar: ArcelikAppBar(isScrolledNotifier: isScrolledNotifier), // Pass the notifier
+        body: MainPage(isScrolledNotifier: isScrolledNotifier), // Pass the notifier
+        drawer: const ArcelikDrawer(),
       ),
     );
   }
