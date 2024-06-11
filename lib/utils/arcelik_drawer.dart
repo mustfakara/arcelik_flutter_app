@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:arcelik_flutter_app/utils/custom_card.dart';
+import 'package:arcelik_flutter_app/utils/custom_cards.dart';
+import 'package:arcelik_flutter_app/utils/custom_list_items.dart';
 
 class ArcelikDrawer extends StatelessWidget {
   const ArcelikDrawer({super.key});
@@ -82,12 +83,11 @@ class ArcelikDrawer extends StatelessWidget {
               ),
             ),
 
-            CustomCard(),
-            Divider(),
-            Divider(),
+            CustomCards(),
+            const ExpandableContainer(),
 
             const ListTile(
-              title: Text('Data'),
+              title: Text('Further Options will be here...'),
             ),
           ],
         ),

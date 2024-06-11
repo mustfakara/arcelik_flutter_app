@@ -13,4 +13,8 @@ The image below shows the last updated scaffold of the application.
 
 Next image shows the last form of the custom drawer.
 
-![Getting Drawer](/readme_images/custom_drawer.png)
+![Getting Drawer](/readme_images/custom_drawer2.png)
+
+At some point, the cards will show the commercials from CRUD operations.
+
+![Getting ListTile](/readme_images/custom_drawer3.png)

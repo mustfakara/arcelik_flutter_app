@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class CustomCard extends StatelessWidget {
+class CustomCards extends StatelessWidget {
   final ScrollController scrollController = ScrollController();
 
-  CustomCard({super.key});
+  CustomCards({super.key});
 
   @override
   Widget build(BuildContext context) {
