@@ -1,8 +1,28 @@
 # Arçelik Global Flutter App
 
-This is the main branch of the repository. It receives updates upon the approval of development branch merges for integration.
+This branch is the development side and merges with the main branch only upon approvals.
 
-## About this
+## Last Updates
 
+This project is an educational training assessment. 
+The company of Arçelik Global has all the rights to protect their trademarks.
 
-This project aims to demonstrate my proficiency in Flutter while emulating the design and functionality of Arçelik's website. With a focus on replicating the user interface and interactions, this app serves as a showcase of my Flutter skills. Feel free to explore the codebase and provide any feedback or contributions to enhance this project further.
+The image below shows the last updated scaffold of the application.
+The image below shows the first development of scaffold on application.
+
+![Getting Started](/readme_images/custom_appbar.png)
+
+Next image shows the last form of the custom drawer.
+Next image shows the some point form of the custom drawer.
+
+![Getting Drawer](/readme_images/custom_drawer2.png)
+
+At some point, the cards will show the commercials from CRUD operations.
+The cards will show the commercials from CRUD operations.
+
+![Getting ListTile](/readme_images/custom_drawer3.png)
+![Getting ListTile](/readme_images/custom_drawer3.png)
+
+Biggest commit is here, demo of the website clone.
+
+![GIF Demo](/readme_images/summary_gif.gif)
